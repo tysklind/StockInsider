@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWorkerRole", "TestWorke
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SIdb", "SIdb\SIdb.sqlproj", "{FAD08BCD-EB33-459B-83B6-53F6EA54C721}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Databases", "Databases", "{91096878-B4BF-49D3-A4B4-94B8B6E1A7A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WorkerRoles", "WorkerRoles", "{9F83EF02-962B-4A23-9B53-ACDE8CFB94F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,5 +36,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{67F97E93-D3A1-411D-8ABF-E2B1E55F7E73} = {9F83EF02-962B-4A23-9B53-ACDE8CFB94F4}
+		{FAD08BCD-EB33-459B-83B6-53F6EA54C721} = {91096878-B4BF-49D3-A4B4-94B8B6E1A7A6}
 	EndGlobalSection
 EndGlobal
