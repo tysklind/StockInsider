@@ -1,4 +1,4 @@
-﻿CREATE TABLE [dbo].[PortfolioStock]
+﻿CREATE TABLE [portfolio].[PortfolioStock]
 (
 	[PortfolioId] INT NOT NULL,
 	[StockId] INT NOT NULL, 

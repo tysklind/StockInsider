@@ -13,6 +13,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Databases", "Databases", "{
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WorkerRoles", "WorkerRoles", "{9F83EF02-962B-4A23-9B53-ACDE8CFB94F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockInsiderClass", "StockInsiderClass\StockInsiderClass.csproj", "{A2E7AC17-E918-45BF-98E0-393DA8879B29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApplication", "TestApplication\TestApplication.csproj", "{4D957682-262B-4B62-8BCF-06C08D7DE4B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{FAD08BCD-EB33-459B-83B6-53F6EA54C721}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAD08BCD-EB33-459B-83B6-53F6EA54C721}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FAD08BCD-EB33-459B-83B6-53F6EA54C721}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A2E7AC17-E918-45BF-98E0-393DA8879B29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2E7AC17-E918-45BF-98E0-393DA8879B29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2E7AC17-E918-45BF-98E0-393DA8879B29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2E7AC17-E918-45BF-98E0-393DA8879B29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D957682-262B-4B62-8BCF-06C08D7DE4B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D957682-262B-4B62-8BCF-06C08D7DE4B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D957682-262B-4B62-8BCF-06C08D7DE4B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D957682-262B-4B62-8BCF-06C08D7DE4B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

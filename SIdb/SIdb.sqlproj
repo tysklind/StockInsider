@@ -70,6 +70,7 @@
     <Build Include="dbo\portfolio.sql" />
     <Build Include="dbo\stock.sql" />
     <Build Include="Customer\Customer.sql" />
+    <Build Include="dbo\TestTable.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Portfolio\PortfolioStock.sql" />

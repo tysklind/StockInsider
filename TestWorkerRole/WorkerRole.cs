@@ -9,6 +9,8 @@ using Microsoft.WindowsAzure;
 using Microsoft.WindowsAzure.Diagnostics;
 using Microsoft.WindowsAzure.ServiceRuntime;
 using Microsoft.WindowsAzure.Storage;
+using StockInsiderClass;
+using System.Data.Entity;
 
 namespace TestWorkerRole
 {
@@ -60,12 +62,31 @@ namespace TestWorkerRole
 
         private async Task RunAsync(CancellationToken cancellationToken)
         {
+            //TestTable t = new TestTable();
+            //var tests = new List<TestTable>();
+            //SIdbEntities context = new SIdbEntities();
+
+            //SIdbEntities db = new SIdbEntities();
+
+            //TestTable objEmp = new TestTable();
+            //objEmp.Id = 1;
+            //objEmp.Stamping = DateTime.Now;
+            //db.TestTables.Add(objEmp);
+            //db.SaveChanges();
+
+
             // TODO: Replace the following with your own logic.
             while (!cancellationToken.IsCancellationRequested)
             {
                 Trace.TraceInformation("Working");
                 await Task.Delay(1000);
             }
+
+
+            //tests.ForEach(te => context.TestTables.Add(te));
+            //context.SaveChanges();
+
+
         }
     }
 }
