@@ -7,6 +7,8 @@ Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "StockInsider", "StockInside
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestWorkerRole", "TestWorkerRole\TestWorkerRole.csproj", "{67F97E93-D3A1-411D-8ABF-E2B1E55F7E73}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SIdb", "SIdb\SIdb.sqlproj", "{FAD08BCD-EB33-459B-83B6-53F6EA54C721}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,12 @@ Global
 		{67F97E93-D3A1-411D-8ABF-E2B1E55F7E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67F97E93-D3A1-411D-8ABF-E2B1E55F7E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67F97E93-D3A1-411D-8ABF-E2B1E55F7E73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAD08BCD-EB33-459B-83B6-53F6EA54C721}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAD08BCD-EB33-459B-83B6-53F6EA54C721}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAD08BCD-EB33-459B-83B6-53F6EA54C721}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FAD08BCD-EB33-459B-83B6-53F6EA54C721}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAD08BCD-EB33-459B-83B6-53F6EA54C721}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAD08BCD-EB33-459B-83B6-53F6EA54C721}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
